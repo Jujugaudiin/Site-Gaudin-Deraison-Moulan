@@ -1,0 +1,283 @@
+@media all and (max-width: 2000px){
+
+	.responsive{
+		visibility: hidden;
+
+		display: none;
+	}
+
+
+}
+
+@media all and (max-width: 1025px){
+
+	.intro_droiteh{
+		margin-left: 0%;
+		margin-right: 0%;
+		flex-direction: row;
+
+	}
+	
+
+	.responsive{
+		visibility: hidden;
+	}
+
+
+	.responsive{
+		visibility: visible;
+		display: block;
+
+	}
+
+	
+	.nav_link{
+		visibility: hidden;
+		display: none;
+	
+	}
+
+	.logo-to{
+	width: 5%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+
+	}
+
+
+
+}
+
+@media all and (max-width: 900px){
+
+	.menu_background, .intro, .atout_droite, .fin_gauche, .fin_droite, .atout_gauche, .atout_titre_fond, .galerie_img, .galerie_imgh{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.nav_link a{
+		margin: 0 10px;
+	}
+	
+
+	.intro_gauche, .intro_droite, .atout_gauche, .atout_droite, .galerie_img, .galerie_imgh{
+		width: 100%;
+		
+	}
+
+	.atout_sec2{
+		margin-left: 0%;
+	}
+
+	.atout_sec1{
+		flex-wrap: nowrap;
+		margin-top: 5%;
+	}
+
+	.atout_sec2{
+		flex-wrap: nowrap;
+		margin-top: 10%;
+	}
+
+	.intro_droiteh{
+		margin-left: 0%;
+		margin-right: 0%;
+		flex-direction: row;
+
+	}
+
+	.logo-to{
+	width: 5%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+
+	}
+
+
+}
+
+@media all and (max-width: 800px){
+	.intro, .atout_droite, .fin_gauche, .fin_droite, .atout_gauche, .atout_titre_fond, .vd_back, .galerie_img, .galerie_imgh{
+		flex-direction: column;
+
+	}
+
+	.intro_gauche, .intro_droite, .atout_gauche, .atout_droite, .fin_droite, .fin_gauche, .vd_back, .galerie_img, .galerie_imgh{
+		width: 100%;
+		
+		
+	}
+
+	.intro_droiteh{
+		margin-left: 0%;
+		margin-right: 0%;
+		flex-direction: row;
+
+	}
+
+	.logo-to{
+	width: 5%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	}
+
+	
+}
+
+@media all and (max-width: 717px){
+
+	.menu_background, .intro, .atout_droite, .fin_gauche, .fin_droite, .atout_gauche, .atout_titre_fond, .galerie_imgh{
+		flex-direction: column;
+	}
+
+	.nav_link a{
+		margin: 0 10px;
+	}
+	
+
+	.intro_gauche, .intro_droite, .atout_gauche, .atout_droite, .fin_gauche, .fin_droite{
+		width: 100%;
+		min-height: 350px;
+	}
+
+	.logo-to{
+	width: 5%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	}
+
+
+}
+
+@media all and (max-width: 955px){
+	
+	.box{
+		width: 30%;
+	}
+
+	.member{
+		display: none;
+	}
+
+	nav a{
+		font-size: 0.8rem;
+		margin: 0 15px;
+	}
+}
+
+@media all and (max-width: 760px){
+	
+	.content{
+		justify-content: center;
+	}
+
+	.box{
+		width: 40%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.intro_droiteh{
+	
+
+		margin-left: 0%;
+		margin-right: 0%;
+	
+	}
+
+	.article{
+	
+	flex-wrap: wrap;
+	padding-top: 20%;
+	margin: 0%;
+	width: 100%;
+	}
+
+	.logo-to{
+	width: 5%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	}
+
+
+
+}
+
+
+
+@media all and (max-width: 550px){
+	
+	.vd_back_content{
+		margin-top: 30%;
+		
+	}
+
+	.vd_back{
+		background-color: #000;
+		
+	}
+
+
+	.vd{
+		visibility: hidden;
+		
+	}
+
+
+	.vd_back_content h1{
+		margin-bottom: 0%;
+		
+	}
+
+
+	.vd_back_buttons{
+	padding-top: 10%;
+	background-color: #000;
+	
+	}
+
+
+	.intro{
+	margin-top: 40%;
+	}
+
+	.form, .formcontact{
+	padding: 0%;
+	height: 50%
+	max-width: 100%;
+	}
+
+	.contactform{
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 20%;
+	
+	}
+
+
+	.commander{
+		padding-top: 20%;
+		display: flex;
+    	justify-content: center;
+
+	}
+
+	.article_droite{
+		text-align: center;
+	
+	}
+
+	.logo-to{
+		width: 10%;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+
+	}
+
+}
